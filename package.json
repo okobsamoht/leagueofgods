@@ -5,7 +5,8 @@
   "main": "server/server.js",
   "scripts": {
     "build": "gulp build",
-    "start": "gulp run",
+    "start": "node src/server/server.js",
+    "cstart": "gulp run",
     "watch": "gulp watch",
     "test": "gulp test"
   },
